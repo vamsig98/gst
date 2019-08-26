@@ -1,0 +1,15 @@
+/*--------------------------------------------------------------
+#1.1	partners-section
+--------------------------------------------------------------*/
+.partners-section {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .partners-section img {
+    max-width: 100%;
+    display: inline-block;
+  }
+  
+  

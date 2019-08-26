@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480;" xml:space="preserve" width="512px" height="512px"><g><g>
+	<g>
+		<path d="M440,80h-8V8c0-4.418-3.582-8-8-8H56c-4.418,0-8,3.582-8,8v72h-8C17.92,80.026,0.026,97.92,0,120v256    c0.026,22.08,17.92,39.974,40,40h168v48H96c-4.418,0-8,3.582-8,8s3.582,8,8,8h288c4.418,0,8-3.582,8-8s-3.582-8-8-8H272v-48h168    c22.08-0.026,39.974-17.92,40-40V120C479.974,97.92,462.08,80.026,440,80z M64,16h352v32H64V16z M64,64h352v240H64V64z M256,464    h-32v-48h32V464z M464,376c0,13.255-10.745,24-24,24H40c-13.255,0-24-10.745-24-24v-8h448V376z M464,352H16V120    c0-13.255,10.745-24,24-24h8v216c0,4.418,3.582,8,8,8h368c4.418,0,8-3.582,8-8V96h8c13.255,0,24,10.745,24,24V352z" data-original="#000000" class="active-path" data-old_color="#012f5c" fill="#012f5c"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="80" y="24" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#012f5c" fill="#012f5c"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="112" y="24" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#012f5c" fill="#012f5c"/>
+	</g>
+</g><g>
+	<g>
+		<rect x="144" y="24" width="16" height="16" data-original="#000000" class="active-path" data-old_color="#012f5c" fill="#012f5c"/>
+	</g>
+</g><g>
+	<g>
+		<path d="M378.72,184.48c-4.153-1.5-8.736,0.648-10.24,4.8l-12.976,35.888c-0.088,0.256-0.168,0.512-0.232,0.8    c-0.889,3.565-4.093,6.067-7.768,6.064H288V176c0-4.418-3.582-8-8-8h-16c-4.418,0-8,3.582-8,8s3.582,8,8,8h8v56    c0,4.418,3.582,8,8,8h67.504c10.857,0.013,20.37-7.263,23.2-17.744l12.8-35.536C385.006,190.571,382.866,185.99,378.72,184.48z" data-original="#000000" class="active-path" data-old_color="#012f5c" fill="#012f5c"/>
+	</g>
+</g><g>
+	<g>
+		<circle cx="296" cy="272" r="16" data-original="#000000" class="active-path" data-old_color="#012f5c" fill="#012f5c"/>
+	</g>
+</g><g>
+	<g>
+		<circle cx="344" cy="272" r="16" data-original="#000000" class="active-path" data-old_color="#012f5c" fill="#012f5c"/>
+	</g>
+</g><g>
+	<g>
+		<path d="M384,96H240c-4.418,0-8,3.582-8,8s3.582,8,8,8h144c4.418,0,8-3.582,8-8S388.418,96,384,96z" data-original="#000000" class="active-path" data-old_color="#012f5c" fill="#012f5c"/>
+	</g>
+</g><g>
+	<g>
+		<path d="M384,128H240c-4.418,0-8,3.582-8,8s3.582,8,8,8h144c4.418,0,8-3.582,8-8S388.418,128,384,128z" data-original="#000000" class="active-path" data-old_color="#012f5c" fill="#012f5c"/>
+	</g>
+</g><g>
+	<g>
+		<path d="M208,176H88c-4.418,0-8,3.582-8,8s3.582,8,8,8h120c4.418,0,8-3.582,8-8S212.418,176,208,176z" data-original="#000000" class="active-path" data-old_color="#012f5c" fill="#012f5c"/>
+	</g>
+</g><g>
+	<g>
+		<path d="M208,80H88c-4.418,0-8,3.582-8,8v64c0,4.418,3.582,8,8,8h120c4.418,0,8-3.582,8-8V88C216,83.582,212.418,80,208,80z     M200,144H96V96h104V144z" data-original="#000000" class="active-path" data-old_color="#012f5c" fill="#012f5c"/>
+	</g>
+</g><g>
+	<g>
+		<path d="M208,208H88c-4.418,0-8,3.582-8,8v64c0,4.418,3.582,8,8,8h120c4.418,0,8-3.582,8-8v-64C216,211.582,212.418,208,208,208z     M200,272H96v-48h104V272z" data-original="#000000" class="active-path" data-old_color="#012f5c" fill="#012f5c"/>
+	</g>
+</g></g> </svg>

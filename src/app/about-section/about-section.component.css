@@ -1,0 +1,133 @@
+
+/*--------------------------------------------------------------
+#0.9	about-section
+--------------------------------------------------------------*/
+.about-section, .about-section-s3, .about-section-s4, .about-section-s5, .about-section-with-bg {
+    background-color: #f5f5f5;
+  }
+  
+  .about-section .about-details, .about-section-s3 .about-details, .about-section-s4 .about-details, .about-section-s5 .about-details, .about-section-with-bg .about-details {
+    padding-right: 30px;
+  }
+  
+  .about-section .about-details p, .about-section-s3 .about-details p, .about-section-s4 .about-details p, .about-section-s5 .about-details p, .about-section-with-bg .about-details p {
+    color: #4a4a4a;
+    margin-bottom: 2em;
+  }
+  
+  .about-section .skills > .skill + .skill, .about-section-s3 .skills > .skill + .skill, .about-section-s4 .skills > .skill + .skill, .about-section-s5 .skills > .skill + .skill, .about-section-with-bg .skills > .skill + .skill {
+    margin-top: 40px;
+  }
+  
+  @media (max-width: 991px) {
+    .about-section .skills > .skill + .skill, .about-section-s3 .skills > .skill + .skill, .about-section-s4 .skills > .skill + .skill, .about-section-s5 .skills > .skill + .skill, .about-section-with-bg .skills > .skill + .skill {
+      margin-top: 25px;
+    }
+  }
+  
+  .about-section .skill h6, .about-section-s3 .skill h6, .about-section-s4 .skill h6, .about-section-s5 .skill h6, .about-section-with-bg .skill h6 {
+    font-size: 18px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 0 0.56em;
+  }
+  
+  @media (max-width: 991px) {
+    .about-section .skill h6, .about-section-s3 .skill h6, .about-section-s4 .skill h6, .about-section-s5 .skill h6, .about-section-with-bg .skill h6 {
+      font-size: 15px;
+      font-size: 1rem;
+    }
+  }
+  
+  .about-section .progress, .about-section-s3 .progress, .about-section-s4 .progress, .about-section-s5 .progress, .about-section-with-bg .progress {
+    background-color: transparent;
+    height: 5px;
+    margin: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    overflow: visible;
+  }
+  
+  .about-section .progress-bar, .about-section-s3 .progress-bar, .about-section-s4 .progress-bar, .about-section-s5 .progress-bar, .about-section-with-bg .progress-bar {
+    background-color: #012f5c;
+    position: relative;
+  }
+  
+  .about-section .progress-bar span, .about-section-s3 .progress-bar span, .about-section-s4 .progress-bar span, .about-section-s5 .progress-bar span, .about-section-with-bg .progress-bar span {
+    font-family: "Poppins", sans-serif;
+    background-color: #fdd415;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #012f5c;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+  }
+  
+  @media (max-width: 991px) {
+    .about-section .progress-bar span, .about-section-s3 .progress-bar span, .about-section-s4 .progress-bar span, .about-section-s5 .progress-bar span, .about-section-with-bg .progress-bar span {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 14px;
+      font-size: 0.93333rem;
+    }
+  }
+  
+  .about-section .about-chart, .about-section-s3 .about-chart, .about-section-s4 .about-chart, .about-section-s5 .about-chart, .about-section-with-bg .about-chart {
+    -webkit-box-shadow: 0 0 10px #e6e6e6;
+    box-shadow: 0 0 10px #e6e6e6;
+  }
+  
+  @media (max-width: 991px) {
+    .about-section .about-chart, .about-section-s3 .about-chart, .about-section-s4 .about-chart, .about-section-s5 .about-chart, .about-section-with-bg .about-chart {
+      display: none;
+    }
+  }
+  
+
+/*--------------------------------------------------------------
+#3.1	about-section-s3
+--------------------------------------------------------------*/
+.about-section-s3 .about-chart, .about-section-s4 .about-chart, .about-section-s5 .about-chart {
+    margin-top: -100px;
+  }
+  
+  .about-section-s3 .about-details p:last-child, .about-section-s4 .about-details p:last-child, .about-section-s5 .about-details p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .about-section-s4 .about-img, .about-section-s5 .about-img {
+    margin-top: -140px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 10px #b3b3b3;
+    box-shadow: 0 0 10px #b3b3b3;
+  }
+  
+  @media (max-width: 1199px) {
+    .about-section-s4 .about-img, .about-section-s5 .about-img {
+      margin-top: 0;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .about-section-s4 .about-img, .about-section-s5 .about-img {
+      margin-top: 40px;
+    }
+  }
+  
+  .about-section-s4 .about-img img, .about-section-s5 .about-img img {
+    width: 100%;
+  }
+    

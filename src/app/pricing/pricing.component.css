@@ -1,0 +1,164 @@
+/*--------------------------------------------------------------
+#4.1	pricing-section
+--------------------------------------------------------------*/
+.page-title {   background: url("/assets/images/pricing-banner.jpg") center center/cover no-repeat local;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  position: relative;
+} 
+
+.pricing-section .section-title, .pricing-section .section-title-s2, .pricing-section .section-title-s3, .pricing-section .section-title-s4, .pricing-section .section-title-s5 {
+    margin-bottom: 75px;
+  }
+  
+  @media (max-width: 767px) {
+    .pricing-section .section-title, .pricing-section .section-title-s2, .pricing-section .section-title-s3, .pricing-section .section-title-s4, .pricing-section .section-title-s5 {
+      margin-bottom: 45px;
+    }
+  }
+  
+  .pricing-section .container {
+    overflow: hidden;
+  }
+  
+  .pricing-section .owl-carousel .owl-stage-outer {
+    overflow: visible;
+  }
+  
+  .pricing-section .owl-controls {
+    margin-top: 50px;
+  }
+  
+  .pricing-section .owl-controls .owl-dots .owl-dot span {
+    background-color: #012f5c;
+  }
+  
+  .pricing-section .owl-controls .owl-dots .active span {
+    background-color: #fdd415;
+  }
+  
+  .pricing-pg-section .pricing-grids {
+    padding-top: 25px;
+  }
+  /************************************
+	pricing grids
+**********************************/
+.pricing-grids .grid {
+    border: 1px solid #cbcbcb;
+    border-radius: 5px;
+    padding: 48px 65px;
+    text-align: center;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  @media (max-width: 767px) {
+    .pricing-grids .grid {
+      padding: 35px 25px;
+    }
+  }
+  
+  .pricing-grids .pricing-header p {
+    margin: 0;
+  }
+  
+  .pricing-grids .type {
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  
+  .pricing-grids h3 {
+    font-size: 36px;
+    font-size: 2.4rem;
+    margin: 0.55em 0 0.35em;
+    padding: 0 0 0.35em;
+    position: relative;
+  }
+  
+  @media (max-width: 767px) {
+    .pricing-grids h3 {
+      font-size: 30px;
+      font-size: 2rem;
+    }
+  }
+  
+  .pricing-grids h3:after {
+    content: "";
+    background-color: #fdd415;
+    width: 43px;
+    height: 5px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+  .pricing-grids .pricing-body {
+    margin-top: 25px;
+  }
+  
+  .pricing-grids .pricing-body p {
+    margin-bottom: 2em;
+    color: #666666;
+    line-height: 2.57em;
+  }
+  
+  .pricing-grids .center {
+    background-color: #012f5c;
+    border-radius: 5px;
+    -webkit-transform: scaleY(1.1);
+    -ms-transform: scaleY(1.1);
+    transform: scaleY(1.1);
+  }
+  
+  .pricing-grids .center .type,
+  .pricing-grids .center h3 {
+    color: #fff;
+  }
+  
+  .pricing-grids .center p {
+    color: #999;
+  }
+  
+  .pricing-grids .center .theme-btn, .pricing-grids .center .theme-btn-s2 {
+    background-color: #fdd415;
+    color: #012f5c;
+  }
+  
+  .pricing-grids .center .theme-btn:after, .pricing-grids .center .theme-btn-s2:after {
+    color: #012f5c;
+  }
+  
+  .pricing-grids .grid:hover {
+    background-color: #012f5c;
+  }
+  
+  .pricing-grids .grid:hover .type,
+  .pricing-grids .grid:hover h3 {
+    color: #fff;
+  }
+  
+  .pricing-grids .grid:hover p {
+    color: #999;
+  }
+  
+  .pricing-grids .grid:hover .theme-btn, .pricing-grids .grid:hover .theme-btn-s2 {
+    background-color: #fdd415;
+    color: #012f5c;
+  }
+  
+  .pricing-grids .grid:hover .theme-btn:after, .pricing-grids .grid:hover .theme-btn-s2:after {
+    color: #012f5c;
+  }
+  
+
+ 

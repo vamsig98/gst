@@ -1,0 +1,214 @@
+/*--------------------------------------------------------------
+#0.5	footer
+--------------------------------------------------------------*/
+.site-footer {
+    /*** about widget ***/
+    /*** links-widget ***/
+    /*** support-widget ***/
+    /*** twitter-feed-widget ***/
+    /*** copyright-info ***/
+  }
+  
+  .site-footer .upper-footer {
+    background-color: #012243;
+    padding: 100px 0;
+  }
+  
+  @media (max-width: 991px) {
+    .site-footer .upper-footer {
+      padding: 80px 0 35px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .site-footer .upper-footer {
+      padding: 70px 0 30px;
+    }
+  }
+  
+  .site-footer .upper-footer ul {
+    list-style: none;
+  }
+  
+  .site-footer .upper-footer ul,
+  .site-footer .upper-footer li,
+  .site-footer .upper-footer p,
+  .site-footer .upper-footer a {
+    color: #7f97ad;
+  }
+  
+  .site-footer .upper-footer a:hover {
+    color: #fdd415;
+  }
+  
+  @media (max-width: 991px) {
+    .site-footer .upper-footer .row > .col {
+      margin-bottom: 55px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .site-footer .upper-footer .row > .col {
+      margin-bottom: 40px;
+    }
+  }
+  
+  .site-footer .widget > h3,
+  .site-footer .widget .footer-logo {
+    font-size: 24px;
+    font-size: cacl-rem-value(24);
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 0 2em;
+    padding-bottom: 0.5em;
+    position: relative;
+  }
+  
+  @media (max-width: 991px) {
+    .site-footer .widget > h3,
+    .site-footer .widget .footer-logo {
+      font-size: 20px;
+      font-size: cacl-rem-value(20);
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .site-footer .widget > h3,
+    .site-footer .widget .footer-logo {
+      font-size: 16px;
+      font-size: cacl-rem-value(16);
+    }
+  }
+  
+  .site-footer .widget > h3:before,
+  .site-footer .widget .footer-logo:before {
+    content: "";
+    background-color: #fdd415;
+    width: 28px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 5px;
+  }
+  
+  .site-footer .widget .footer-logo {
+    margin-bottom: 15px;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .site-footer .about-widget {
+      padding-right: 25px;
+    }
+  }
+  
+  .site-footer .about-widget .contact-info {
+    margin-top: 30px;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .site-footer .about-widget .contact-info {
+      padding-right: 105px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .site-footer .about-widget .contact-info {
+      margin-top: 10px;
+    }
+  }
+  
+  .site-footer .about-widget .footer-logo:before {
+    display: none;
+  }
+  
+  .site-footer .about-widget ul li {
+    position: relative;
+    padding-left: 38px;
+    line-height: 1.78em;
+  }
+  
+  .site-footer .about-widget ul > li + li {
+    margin-top: 5px;
+  }
+  
+  .site-footer .about-widget ul li i {
+    color: #fdd415;
+    position: absolute;
+    left: 0;
+    top: 3px;
+  }
+  
+  @media (max-width: 767px) {
+    .site-footer .about-widget img {
+      max-width: 160px;
+    }
+  }
+  
+  .site-footer .links-widget {
+    overflow: hidden;
+  }
+  
+  .site-footer .links-widget ul li {
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .site-footer .links-widget ul li:before {
+    font-family: "FontAwesome";
+    content: "\f105";
+    color: #fdd415;
+    position: absolute;
+    left: 0;
+    top: -1px;
+  }
+  
+  .site-footer .links-widget ul li + li {
+    margin-top: 25px;
+  }
+  
+  @media (max-width: 767px) {
+    .site-footer .links-widget ul li + li {
+      margin-top: 10px;
+    }
+  }
+  
+  .site-footer .support-widget {
+    overflow: hidden;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .site-footer .support-widget {
+      padding-right: 45px;
+    }
+  }
+  
+  .site-footer .support-widget ul li + li {
+    margin-top: 15px;
+  }
+  
+  @media (max-width: 767px) {
+    .site-footer .support-widget ul li + li {
+      margin-top: 10px;
+    }
+  }
+  
+  .site-footer .twitter-feed-widget ul li + li {
+    padding-top: 14px;
+    margin-top: 14px;
+    border-top: 1px solid #013466;
+  }
+  
+  .site-footer .twitter-feed-widget i {
+    color: #198cfa;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .site-footer .twitter-feed-widget a {
+    color: #fdd415;
+  }
+  
+  p{
+    text-align: justify;
+  }

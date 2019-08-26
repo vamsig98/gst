@@ -1,0 +1,232 @@
+/*--------------------------------------------------------------
+#13.2	blog-list
+--------------------------------------------------------------*/
+.blog-list .news-grids .grid {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  
+  .blog-list .news-grids .pagination-wrapper {
+    padding-top: 0;
+  }
+  
+  
+  .page-title {   background: url("/assets/images/news-banner.jpg") center center/cover no-repeat local;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    position: relative;
+  } 
+
+  /*--------------------------------------------------------------
+	#blog page
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#13.0	blog-pg-content
+--------------------------------------------------------------*/
+.blog-pg-content .news-grids > .col {
+    margin-bottom: 50px;
+  }
+  
+  @media (max-width: 600px) {
+    .blog-pg-content .news-grids > .col {
+      width: 100%;
+    }
+  }
+  
+  
+  
+  /*--------------------------------------------------------------
+#1.4	blog-section 
+--------------------------------------------------------------*/
+@media (max-width: 991px) {
+    .blog-section {
+      padding-bottom: 50px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .blog-section {
+      padding-bottom: 40px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .blog-section .news-grids > .col {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .blog-section .news-grids > .col {
+      width: 100%;
+    }
+  }
+
+  /************************************
+	news grids
+**********************************/
+.news-grids .grid {
+    border: 1px solid #e5e5e5;
+  }
+  
+  .news-grids .entry-media img {
+    border-radius: 5px;
+  }
+  
+  .news-grids .entry-body {
+    padding: 30px 35px;
+  }
+  
+  @media (max-width: 767px) {
+    .news-grids .entry-body {
+      padding: 20px 15px;
+    }
+  }
+  
+  .news-grids .date {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #999;
+    text-transform: uppercase;
+  }
+  
+  @media (max-width: 1199px) {
+    .news-grids .date {
+      font-size: 12px;
+      font-size: 0.8rem;
+    }
+  }
+  
+  .news-grids .entry-header h3 {
+    font-size: 20px;
+    font-size: 1.33333rem;
+    font-weight: 600;
+    margin: 0.2em 0 0.8em;
+    line-height: 1.5em;
+  }
+  
+  @media (max-width: 1199px) {
+    .news-grids .entry-header h3 {
+      font-size: 16px;
+      font-size: 1.06667rem;
+    }
+  }
+  
+  .news-grids .entry-header h3 a {
+    color: #012f5c;
+  }
+  
+  .news-grids .entry-header h3 a:hover {
+    color: #fdd415;
+  }
+  
+  .news-grids .entry-meta {
+    padding-top: 15px;
+    overflow: hidden;
+  }
+  
+  .news-grids .entry-meta .read-more,
+  .news-grids .entry-meta .comments {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-size: 1.06667rem;
+    font-weight: 600;
+    color: #012f5c;
+  }
+  
+  @media (max-width: 1199px) {
+    .news-grids .entry-meta .read-more,
+    .news-grids .entry-meta .comments {
+      font-size: 13px;
+      font-size: 0.86667rem;
+    }
+  }
+  
+  .news-grids .entry-meta .read-more:hover,
+  .news-grids .entry-meta .comments:hover {
+    color: #fdd415;
+  }
+  
+  .news-grids .entry-meta .read-more {
+    float: left;
+  }
+  
+  .news-grids .entry-meta .comments {
+    float: right;
+    color: #fdd415;
+  }
+  /**** pagination ****/
+.pagination-wrapper {
+  text-align: center;
+  clear: both;
+  overflow: hidden;
+}
+
+.pagination-wrapper .pg-pagination {
+  display: inline-block;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.pagination-wrapper .pg-pagination li {
+  float: left;
+  margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .pagination-wrapper .pg-pagination li {
+    margin-right: 5px;
+  }
+}
+
+.pagination-wrapper .pg-pagination li:last-child {
+  margin-right: 0;
+}
+
+.pagination-wrapper .pg-pagination li a {
+  font-family: "Poppins", sans-serif;
+  background-color: #012f5c;
+  display: block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .pagination-wrapper .pg-pagination li a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+}
+
+.pagination-wrapper .pg-pagination .active a,
+.pagination-wrapper .pg-pagination li a:hover {
+  background-color: #fdd415;
+  color: #012f5c;
+}
+
+
+.entry-details p  {
+   
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 93px;
+
+}
+
+.entry-header h3  {
+ 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 90px;
+
+}
+
+
+.load{
+  display:none;
+}

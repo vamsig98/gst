@@ -1,0 +1,347 @@
+/*--------------------------------------------------------------
+#1.0	projects-section
+--------------------------------------------------------------*/
+.projects-section ul, .projects-section-s2 ul, .project-section-s3-3grid ul {
+    list-style: none;
+  }
+  
+  .projects-section .projects-list, .projects-section-s2 .projects-list, .project-section-s3-3grid .projects-list {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .projects-section .projects-list li, .projects-section-s2 .projects-list li, .project-section-s3-3grid .projects-list li {
+    display: inline-block;
+  }
+  
+  @media (max-width: 767px) {
+    .projects-section .projects-list li, .projects-section-s2 .projects-list li, .project-section-s3-3grid .projects-list li {
+      display: block;
+    }
+  }
+  
+  .projects-section .projects-list li a, .projects-section-s2 .projects-list li a, .project-section-s3-3grid .projects-list li a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-size: 1.06667rem;
+    color: #012f5c;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: block;
+    position: relative;
+  }
+  
+  @media (max-width: 991px) {
+    .projects-section .projects-list li a, .projects-section-s2 .projects-list li a, .project-section-s3-3grid .projects-list li a {
+      font-size: 14px;
+      font-size: 0.93333rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .projects-section .projects-list li a, .projects-section-s2 .projects-list li a, .project-section-s3-3grid .projects-list li a {
+      display: block;
+    }
+  }
+  
+  .projects-section .projects-list li a:after, .projects-section-s2 .projects-list li a:after, .project-section-s3-3grid .projects-list li a:after {
+    content: "";
+    border: 5px solid transparent;
+    border-top: 5px solid #fdd415;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    display: none;
+  }
+  
+  .projects-section .projects-list li a.current, .projects-section-s2 .projects-list li a.current, .project-section-s3-3grid .projects-list li a.current {
+    background-color: #fdd415;
+  }
+  
+  .projects-section .projects-list li a.current:after, .projects-section-s2 .projects-list li a.current:after, .project-section-s3-3grid .projects-list li a.current:after {
+    display: block;
+  }
+  
+  .projects-section .projects-grid, .projects-section-s2 .projects-grid, .project-section-s3-3grid .projects-grid {
+    overflow: hidden;
+    margin: 0 -5px;
+  }
+  
+  .projects-section .projects-grid .grid, .projects-section-s2 .projects-grid .grid, .project-section-s3-3grid .projects-grid .grid {
+    width: 25%;
+    float: left;
+    padding: 0 5px 10px;
+  }
+  
+  @media (max-width: 1199px) {
+    .projects-section .projects-grid .grid, .projects-section-s2 .projects-grid .grid, .project-section-s3-3grid .projects-grid .grid {
+      width: 33.33%;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .projects-section .projects-grid .grid, .projects-section-s2 .projects-grid .grid, .project-section-s3-3grid .projects-grid .grid {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    .projects-section .projects-grid .grid, .projects-section-s2 .projects-grid .grid, .project-section-s3-3grid .projects-grid .grid {
+      width: 100%;
+      float: none;
+    }
+  }
+  
+  .projects-section .all-projects, .projects-section-s2 .all-projects, .project-section-s3-3grid .all-projects {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+
+  /*--------------------------------------------------------------
+#3.2	projects-section-s2
+--------------------------------------------------------------*/
+.projects-section-s2 .section-title-s5 {
+    margin-top: 50px;
+  }
+  
+  @media (max-width: 1199px) {
+    .projects-section-s2 .section-title-s5 {
+      margin-top: 0;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .projects-section-s2 .section-title-s5 {
+      margin-top: 50px;
+    }
+  }
+  
+  .projects-section-s2 .projects-grid .grid {
+    width: 50%;
+  }
+  
+  @media (max-width: 550px) {
+    .projects-section-s2 .projects-grid .grid {
+      width: 100%;
+    }
+  }
+  
+  .projects-section-s2 .skill-progress-bar {
+    margin: 40px 0 75px;
+  }
+  
+  @media (max-width: 991px) {
+    .projects-section-s2 .skill-progress-bar {
+      margin: 40px 0 55px;
+    }
+  }
+  
+  .projects-section-s2 .more-work {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #012f5c;
+    padding-bottom: 3px;
+    display: inline-block;
+    position: relative;
+  }
+  
+  @media (max-width: 767px) {
+    .projects-section-s2 .more-work {
+      font-size: 16px;
+      font-size: 1.06667rem;
+    }
+  }
+  
+  .projects-section-s2 .more-work i {
+    color: #fdd415;
+  }
+  
+  .projects-section-s2 .more-work:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #012f5c;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  /************************************
+	projects grid
+**********************************/
+.projects-grid .inner {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .projects-grid .details {
+    background-color: #012f5c;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 80%;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .projects-grid .grid:hover .details {
+    top: 0;
+    opacity: 1;
+  }
+  
+  .projects-grid .details-inner {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .projects-grid .details ul li {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 2px solid #fdd415;
+    border-radius: 50%;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: all 0.3s 0.5s;
+    -webkit-transition: all 0.5s 0.3s;
+    -o-transition: all 0.5s 0.3s;
+    transition: all 0.5s 0.3s;
+  }
+  
+  .projects-grid .details ul li:first-child {
+    margin-right: 10px;
+    top: -30px;
+  }
+  
+  .projects-grid .details ul li:last-child {
+    margin-right: 10px;
+    top: -50px;
+  }
+  
+  .projects-grid .grid:hover .details ul li:first-child,
+  .projects-grid .grid:hover .details ul li:last-child {
+    top: 0;
+    opacity: 1;
+  }
+  
+  .projects-grid .details ul li a {
+    color: #fdd415;
+    display: block;
+  }
+  
+  .projects-grid .details h3 {
+    font-size: 18px;
+    font-size: 1.2rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 1em 0 0.5em;
+  }
+  
+  @media (max-width: 991px) {
+    .projects-grid .details h3 {
+      font-size: 16px;
+      font-size: 1.06667rem;
+    }
+  }
+  
+  .projects-grid .details p {
+    font-size: 12px;
+    font-size: 0.8rem;
+    color: #fff;
+    margin: 0;
+  }
+/************************************
+	progress bar
+**********************************/
+.skills > .skill + .skill {
+  margin-top: 40px;
+}
+
+@media (max-width: 991px) {
+  .skills > .skill + .skill {
+    margin-top: 25px;
+  }
+}
+
+.skill h6 {
+  font-size: 18px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 0 0.56em;
+}
+
+@media (max-width: 991px) {
+  .skill h6 {
+    font-size: 15px;
+    font-size: 1rem;
+  }
+}
+
+.progress {
+  background-color: transparent;
+  height: 5px;
+  margin: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.progress-bar {
+  background-color: #012f5c;
+  position: relative;
+}
+
+.progress-bar span {
+  font-family: "Poppins", sans-serif;
+  background-color: #fdd415;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #012f5c;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 0;
+}
+
+@media (max-width: 991px) {
+  .progress-bar span {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-size: 0.93333rem;
+  }
+}

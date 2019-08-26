@@ -1,0 +1,130 @@
+/*--------------------------------------------------------------
+#3.3	team-section
+--------------------------------------------------------------*/
+.team-section, .team-pg-section {
+    padding-bottom: 50px;
+  }
+  
+  .team-section .section-title-s5, .team-pg-section .section-title-s5 {
+    border: 2px solid #012f5c;
+    padding: 50px 30px;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .team-section .section-title-s5, .team-pg-section .section-title-s5 {
+      margin-top: 110px;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .team-section .section-title-s5, .team-pg-section .section-title-s5 {
+      padding: 30px 25px;
+    }
+  }
+  
+  .team-section .section-title-s5 h2, .team-pg-section .section-title-s5 h2 {
+    margin-bottom: 0.7em;
+  }
+  
+  .team-section .section-title-s5 p, .team-pg-section .section-title-s5 p {
+    margin-bottom: 2em;
+  }
+  
+  .team-section .team-grids, .team-pg-section .team-grids {
+    margin: 0 -15px;
+  }
+  
+  .team-section .team-grids .grid, .team-pg-section .team-grids .grid {
+    width: 33.33%;
+    float: left;
+    padding: 0 15px 30px;
+  }
+  
+  @media (max-width: 991px) {
+    .team-section .team-grids .grid, .team-pg-section .team-grids .grid {
+      width: 50%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .team-section .team-grids .grid, .team-pg-section .team-grids .grid {
+      width: 100%;
+      float: none;
+    }
+  }
+  
+  .team-section .all-member, .team-pg-section .all-member {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #012f5c;
+    padding-bottom: 3px;
+    display: inline-block;
+    position: relative;
+  }
+  
+  @media (max-width: 767px) {
+    .team-section .all-member, .team-pg-section .all-member {
+      font-size: 16px;
+      font-size: 1.06667rem;
+    }
+  }
+  
+  .team-section .all-member i, .team-pg-section .all-member i {
+    color: #fdd415;
+  }
+  
+  .team-section .all-member:after, .team-pg-section .all-member:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #012f5c;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  
+
+  /************************************
+	team grid
+**********************************/
+.team-grids .grid:hover .member-info {
+    background-color: #fdd415;
+  }
+  
+  .team-grids .grid:hover .member-info h4,
+  .team-grids .grid:hover .member-info > span {
+    color: #012f5c;
+  }
+  
+  .team-grids .member-info {
+    background-color: #012f5c;
+    text-align: center;
+    padding: 13px 15px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .team-grids .member-info h4 {
+    font-size: 18px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 8px;
+  }
+  
+  @media (max-width: 767px) {
+    .team-grids .member-info h4 {
+      font-size: 16px;
+      font-size: 1.06667rem;
+    }
+  }
+  
+  .team-grids .member-info > span {
+    color: #fdd415;
+  }
+  

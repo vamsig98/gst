@@ -1,0 +1,159 @@
+/*--------------------------------------------------------------
+#2.1	fun-fact
+--------------------------------------------------------------*/
+.fun-fact {
+    background: url("/assets/images/fun-fact-bg.jpg") center center/cover no-repeat fixed;
+    padding: 85px 0;
+    position: relative;
+  }
+  
+  @media (max-width: 991px) {
+    .fun-fact {
+      padding: 85px 0 25px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .fun-fact {
+      padding: 70px 0 5px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .fun-fact {
+      padding: 50px 0 10px;
+    }
+  }
+  
+  .fun-fact:before {
+    content: "";
+    background-color: rgba(1, 47, 92, 0.9);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  @media (max-width: 991px) {
+    .fun-fact .row > .col {
+      margin-bottom: 60px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .fun-fact .row > .col {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  }
+  
+  .fun-fact .grid {
+    position: relative;
+    padding-left: 125px;
+    text-align: left;
+  }
+  
+  @media (max-width: 1199px) {
+    .fun-fact .grid {
+      padding-left: 100px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .fun-fact .grid {
+      padding-left: 80px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .fun-fact .grid {
+      display: inline-block;
+    }
+  }
+  
+  .fun-fact .icon {
+    background-color: #fdd415;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: -12px;
+  }
+  
+  @media (max-width: 1199px) {
+    .fun-fact .icon {
+      width: 80px;
+      height: 80px;
+      line-height: 80px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .fun-fact .icon {
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      top: 0;
+    }
+  }
+  
+  .fun-fact .icon .fi:before {
+    font-size: 52px;
+    font-size: 3.46667rem;
+    color: #012f5c;
+  }
+  
+  @media (max-width: 1199px) {
+    .fun-fact .icon .fi:before {
+      font-size: 35px;
+      font-size: 2.33333rem;
+    }
+  }
+  
+  .fun-fact h3 {
+    font-size: 48px;
+    font-size: 3.2rem;
+    color: #fff;
+    margin: 0;
+  }
+  
+  @media (max-width: 1199px) {
+    .fun-fact h3 {
+      font-size: 35px;
+      font-size: 2.33333rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .fun-fact h3 {
+      font-size: 30px;
+      font-size: 2rem;
+    }
+  }
+  
+  .fun-fact span {
+    font-size: 18px;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+  
+  @media (max-width: 1199px) {
+    .fun-fact span {
+      font-size: 16px;
+      font-size: 1.06667rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .fun-fact span {
+      font-size: 14px;
+      font-size: 0.93333rem;
+    }
+  }
+  
+  

@@ -1,0 +1,107 @@
+
+      <!-- start blog-with-sidebar-section -->
+      <section class="blog-with-sidebar-section blog-single-content section-padding v">
+          <div class="container">
+              <div  class="row">
+                  <div  class="news-grids col col-lg-8 col-lg-offset-1 col-lg-push-3 col-md-8 col-md-push-4">
+                    <div  class="post">
+                        <div  class="post-title-meta">
+                          <h2>{{newsdetail.news_title}}</h2>      
+                            <ul class="meta-info">
+                                <li><a href="#">By: {{newsdetail.posted_by}}</a></li>
+                                <li><a href="#"><i class="fa fa-clock-o"></i>{{newsdetail.news_date}}</a></li>
+                            </ul>
+                        </div>
+                        <div *ngFor="let s1 of newsdetail.paragraph_details" class="post-body">
+                            
+                                 <p>{{s1.paragraphs}}</p> 
+
+                            
+                              <!--   <p>{{s1.paragraph_details[0].paragraphs}}</p>  -->
+                               
+                                
+                                
+                    <div class="gallery-post">
+                                <div class="gallery">
+                                    <!-- <div class="img-holder">
+                                        <img src="{{s1.imageurl}}" alt>
+                                  </div> -->
+                                      <div class="img-holder">
+                                        <img src="{{s1.paragraph_image}}" alt>
+                                    </div>  
+                                </div>
+                    </div>
+
+                            <div class="text-post">
+                               <!--  <h3>It has roots in a piece of classical Latin</h3>
+                                <p>a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33.</p>
+                                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interes ted. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reprodu ced in their exact original form</p> -->
+                               <!--  <p>{{newsdetail.nt2}}</p>                              
+
+                                <p>{{newsdetail.nt3}}</p> -->
+                              </div>
+                     </div>
+
+                    </div> <!-- end post -->
+
+                      <div class="tag-share">
+                          <div>
+                              <span>Tags: </span>
+                              <ul class="tag">
+                                  <li><a href="#">CGST</a></li>
+                                  <li><a href="#">SGST</a></li>
+                                  <li><a href="#">GST</a></li>
+                                  <li><a href="#">Tax</a></li>
+                              </ul>
+                          </div>
+                          <div>
+                              <span>Share:</span>
+                              <ul class="share">
+                                  <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                  <li><a href="https://twitter.com/twitter?lang=en" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                  <li><a href="https://in.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                  <li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+                                  <li><a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                              </ul>
+                          
+                      </div> <!-- end tag-share -->
+                      </div> <!-- end comments -->
+                  </div> <!-- end blog-content -->
+
+                  <div class="blog-sidebar col col-lg-3 col-lg-pull-9 col-md-4 col-md-pull-8 col-sm-5">
+
+                      <div class="widget category-widget">
+                          <h3>Category</h3>
+                          <ul *ngFor="let s of category">
+                              <li><a href="#">{{s.tag_name}}<span class="badge">{{s.tags_count}}</span></a></li>
+                          </ul>
+                      </div>
+
+                      <div class="widget recent-post-widget">
+                          <h3>Recent post</h3>
+                          <ul *ngFor="let recent of recentpost">
+                              <li>
+                                  <div class="post-pic ">
+                                      <img class="im" src="{{recent.News_Image}}" alt>
+                                  </div>
+                                  <div  class="details">
+                                      <h4><a> {{recent.News_Title}}</a></h4>
+                                      <span>{{recent.News_Time}}</span>
+                                  </div>
+                              </li>
+                          </ul>
+                      </div>
+
+                      <div class="widget archive-widget">
+                          <h3>Archive</h3>
+                          <ul *ngFor="let s of archive">
+                            <li><a href="#">{{s.month}}<span class="badge">{{s.count}}</span></a></li>
+                          </ul>
+                      </div>
+                    
+                  </div>                    
+              </div>
+          </div> <!-- end container -->
+      </section>
+      <!-- end blog-with-sidebar-section -->        
+

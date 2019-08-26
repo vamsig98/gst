@@ -1,0 +1,110 @@
+ <!-- start page-title -->
+ <section class="page-title">
+  <div class="container">
+      <div class="row">
+          <div class="col col-xs-12">
+              <h2>GST News</h2>
+              <ol class="breadcrumb">
+                <li><a [routerLink]="['/']">Home</a></li>
+                <li>GST News</li>
+              </ol>
+          </div>
+      </div> <!-- end row -->
+  </div> <!-- end container -->
+</section>        
+<!-- end page-title -->
+
+<!-- <section class="blog-section section-padding">
+    <div  class="container">
+        <div class="row">
+            <div class="col col-md-8 col-md-offset-2">
+                <div class="section-title-s3">
+                    <h2>Recent News On GST</h2>
+  <p>Here, Our GstGola let you know about the latest happenings in the world on GST. Gstgola.com has updated regularly with all the latest GST news. </p>              </div>
+            </div>
+        </div>
+        
+        <div  class="row news-grids">
+            <div *ngFor="let s of news ">
+            <div  class="col col-md-4 col-xs-6">
+                <div class="grid">
+                    
+                    <div class="entry-media">
+                        <img src="{{s.imageurl}}" alt>
+                    </div>
+                    <div class="entry-body">
+                        <div class="entry-header">
+                            <span class="date">{{s.news_date}}</span>
+                            <h3 ><a [routerLink]="['/News-Detail',s.id]">{{s.news_title }}</a></h3>
+                        </div>
+                        <div class="entry-details">
+                              <p>{{s.news_home_para}} </p>                      
+                       </div>
+                        <div class="entry-meta">
+                            
+                                <a [routerLink]="['     /News-Detail',s.id]"  class="read-more">Read More</a>                         
+                             </div>
+                    </div>
+                </div>
+            </div> 
+
+                
+            </div>
+            </div>
+            </div>
+            </section> -->
+
+
+<!-- start blog-pg-content -->
+ <section class="blog-pg-content section-padding">
+  <div class="container">
+      <div class="row news-grids">
+            
+          <div  *ngFor="let s of news " class="col  col-md-4 col-xs-6">
+            <div class="grid">
+                    
+                <div class="entry-media">
+                    <img src="{{s.imageurl}}" alt>
+                </div>
+                <div class="entry-body">
+                    <div class="entry-header">
+                        <span class="date">{{s.news_date}}</span>
+                        <h3 ><a [routerLink]="['/News-Detail',s.id]">{{s.news_title }}</a></h3>
+                    </div>
+                    <div class="entry-details">
+                          <p>{{s.news_home_para}} </p>                      
+                   </div>
+                    <div class="entry-meta">
+                        
+                            <a [routerLink]="['/News-Detail',s.id]"  class="read-more">Read More</a>                         
+                         </div>
+                </div>
+          </div>
+
+      
+      </div>
+      </div>
+      </div>
+      </section>
+
+      <!-- <div class="pagination-wrapper">
+          <ul class="pg-pagination">
+              <li>
+                  <a href="#" aria-label="Previous">
+                      <i class="fa fa-angle-double-left"></i>
+                  </a>
+              </li>
+              <li class="active"><a href="#">1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li>
+                  <a href="#" aria-label="Next">
+                      <i class="fa fa-angle-double-right"></i>
+                  </a>
+              </li>
+          </ul>
+      </div>                 -->
+ <!--  </div> 
+  
+  </section> -->
+<!-- end blog-pg-content -->        

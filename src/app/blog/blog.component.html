@@ -1,0 +1,78 @@
+ <!-- start blog-section -->
+ <section class="blog-section section-padding">
+  <div  class="container">
+      <div class="row">
+          <div class="col col-md-8 col-md-offset-2">
+              <div class="section-title-s3">
+                  <h2>Recent News On GST</h2>
+<p>Here, Our GstGola let you know about the latest happenings in the world on GST. Gstgola.com has updated regularly with all the latest GST news. </p>              </div>
+          </div>
+      </div>
+      <div class="row news-grids">
+             <div *ngFor="let s of news "> 
+                    <div *ngIf="s.status=='ACTIVE'" class="col col-md-4 col-xs-6">
+                        <div class="grid">
+                            
+                            <div class="entry-media">
+                                <img src="{{s.imageurl}}" alt>
+                            </div>
+                            <div class="entry-body">
+                                <div class="entry-header">
+                                    <span class="date">{{s.news_date}}</span>
+                                    <h3 ><a [routerLink]="['/News-Detail',s.id]">{{s.news_title }}</a></h3>
+                                </div>
+                                <div class="entry-details">
+                                      <p>{{s.news_home_para}} </p>                      
+                               </div>
+                                <div class="entry-meta">
+                                    
+                                        <a [routerLink]="['../News-Detail',s.id]"  class="read-more">Read More</a>                         
+                                     </div>
+                            </div>
+                        </div>
+                    </div> 
+        
+                        
+                    </div> 
+          <!-- <div class="col col-md-4 col-xs-6">
+              <div class="grid">
+                  <div class="entry-media">
+                        <img src="assets/images/newsimg-2.jpg" alt>
+                    </div>
+                  <div class="entry-body">
+                      <div class="entry-header">
+                          <span class="date">16 Hours ago</span>
+                          <h3><a href="#">{{s.title}}</a></h3>
+                      </div>
+                      <div class="entry-details">
+<p>Finance Minister Arun Jaitley has announced that “the Taxpayers can submit complete the transitional credit form by April 30 who could not complete the transitional credit form Trans -1 through GSTN portal due to some defects”.</p>                      </div>
+                      <div class="entry-meta">
+                        <a [routerLink]="['/News-Detail']" class="read-more">Read More</a>
+                      </div>
+                  </div>
+              </div>
+          </div> -->
+         <!--  <div class="col col-md-4 col-xs-6">
+            <div class="grid">
+                <div class="entry-media">
+                      <img src="assets/images/newsimg-3.jpg" alt>
+                  </div>
+                <div class="entry-body">
+                    <div class="entry-header">
+                        <span class="date">16 Hours ago</span>
+                        <h3><a href="#"></a></h3>
+                    </div>
+                    <div class="entry-details">
+<p>Recently, the Finance Minister has announced that 5% GST is applicable on food and drinks in stations, trains, platforms which are supplied by the Indian Railway Catering and tourism corporation (IRCTC). On 31st March 2018, the finance minister wrote to the IRCTC about 5% GST to remove doubt or uncertainty in the matter.</p>
+                      </div>
+                    <div class="entry-meta">
+                      <a [routerLink]="['/News-Detail']" class="read-more">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        
+      </div>
+  </div> <!-- end container -->
+</section>
+<!-- end blog-section -->
